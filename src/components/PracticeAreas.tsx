@@ -81,16 +81,17 @@ export const PracticeAreas: React.FC = () => {
                     href="https://wa.me/5511919580341"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#3F5060] hover:bg-[#202932] text-white rounded-lg text-[11px] sm:text-xs font-semibold uppercase tracking-wider transition-all border border-[#C8B195]/50 shadow-xs"
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#C8B195] hover:bg-[#B89F82] text-[#2E3A46] rounded-lg text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all border border-[#C8B195] shadow-xs group"
                   >
                     <span>Consultar sobre {area.title.split(' ')[1].toLowerCase()}</span>
-                    <ArrowRight className="w-3.5 h-3.5 text-[#C8B195]" />
+                    <ArrowRight className="w-3.5 h-3.5 text-[#2E3A46] group-hover:translate-x-1 transition-transform" />
                   </a>
                 </div>
               </div>
             );
           })}
         </div>
+
 
       </div>
     </section>

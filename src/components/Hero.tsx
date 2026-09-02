@@ -41,10 +41,10 @@ export const Hero: React.FC = () => {
                 href="https://wa.me/5511919580341"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#3F5060] hover:bg-[#2E3A46] border-2 border-[#C8B195] rounded-xl transition-all shadow-md group"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 text-xs font-bold uppercase tracking-wider text-[#2E3A46] bg-[#C8B195] hover:bg-[#B89F82] border-2 border-[#C8B195] rounded-xl transition-all shadow-md group"
                 id="hero-whatsapp-btn"
               >
-                <MessageSquare className="w-4 h-4 text-[#C8B195] group-hover:scale-110 transition-transform" />
+                <MessageSquare className="w-4 h-4 text-[#2E3A46] group-hover:scale-110 transition-transform" />
                 <span>Falar pelo WhatsApp</span>
               </a>
 
@@ -54,11 +54,12 @@ export const Hero: React.FC = () => {
                   e.preventDefault();
                   document.querySelector('#areas')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-semibold uppercase tracking-wider text-[#3F5060] bg-white hover:bg-slate-100 border border-slate-300 rounded-xl transition-all shadow-xs"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-xs font-bold uppercase tracking-wider text-[#3F5060] bg-white hover:bg-slate-100 border-2 border-[#C8B195]/60 rounded-xl transition-all shadow-xs"
               >
                 <span>Conheça nossa atuação</span>
               </a>
             </div>
+
 
           </div>
 

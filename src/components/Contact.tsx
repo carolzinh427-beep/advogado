@@ -112,10 +112,10 @@ export const Contact: React.FC = () => {
                 href="https://wa.me/5511919580341"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2.5 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#2E3A46] hover:bg-[#202932] border border-[#C8B195]/60 rounded-lg transition-all shadow-md group"
+                className="w-full flex items-center justify-center gap-2.5 px-5 py-3 text-xs font-bold uppercase tracking-wider text-[#2E3A46] bg-[#C8B195] hover:bg-[#B89F82] border border-[#C8B195] rounded-lg transition-all shadow-md group"
                 id="contact-whatsapp-btn"
               >
-                <MessageSquare className="w-4 h-4 text-[#C8B195] group-hover:scale-110 transition-transform" />
+                <MessageSquare className="w-4 h-4 text-[#2E3A46] group-hover:scale-110 transition-transform" />
                 <span>Falar pelo WhatsApp</span>
               </a>
 
@@ -123,7 +123,7 @@ export const Contact: React.FC = () => {
                 href={googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-slate-100 bg-[#3A4A58] hover:bg-[#2E3A46] border border-slate-400/50 rounded-lg transition-all"
+                className="w-full flex items-center justify-center gap-2 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#3F5060] hover:bg-[#2E3A46] border border-slate-400/50 rounded-lg transition-all"
                 id="contact-maps-btn"
               >
                 <MapPin className="w-3.5 h-3.5 text-[#C8B195]" />
@@ -131,6 +131,7 @@ export const Contact: React.FC = () => {
                 <ExternalLink className="w-3 h-3 text-slate-300 ml-1" />
               </a>
             </div>
+
           </div>
 
         </div>

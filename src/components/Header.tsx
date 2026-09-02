@@ -77,10 +77,10 @@ export const Header: React.FC = () => {
               href="https://wa.me/5511919580341"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-[#3F5060] hover:bg-[#2E3A46] border border-[#3F5060] rounded-xl transition-all shadow-xs group"
+              className="inline-flex items-center gap-2 px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-[#2E3A46] bg-[#C8B195] hover:bg-[#B89F82] border border-[#C8B195] rounded-xl transition-all shadow-xs group"
               id="header-whatsapp-btn"
             >
-              <MessageSquare className="w-3.5 h-3.5 text-[#C8B195] group-hover:scale-110 transition-transform" />
+              <MessageSquare className="w-3.5 h-3.5 text-[#2E3A46] group-hover:scale-110 transition-transform" />
               <span>Falar pelo WhatsApp</span>
             </a>
           </div>
@@ -119,9 +119,9 @@ export const Header: React.FC = () => {
               href="https://wa.me/5511919580341"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-white bg-[#3F5060] hover:bg-[#2E3A46] border border-[#3F5060] rounded-xl"
+              className="w-full flex items-center justify-center gap-2 px-5 py-3 text-xs font-bold uppercase tracking-wider text-[#2E3A46] bg-[#C8B195] hover:bg-[#B89F82] border border-[#C8B195] rounded-xl shadow-md"
             >
-              <MessageSquare className="w-4 h-4 text-[#C8B195]" />
+              <MessageSquare className="w-4 h-4 text-[#2E3A46]" />
               <span>Falar pelo WhatsApp</span>
             </a>
           </div>
@@ -130,6 +130,7 @@ export const Header: React.FC = () => {
     </header>
   );
 };
+
 
 
 
