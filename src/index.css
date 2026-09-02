@@ -8,12 +8,14 @@
     --blue-slate-dark: #2E3A46;
     --blue-slate-light: #526778;
     --gold-accent: #C8B195;
-    --gold-muted: #D6C5B0;
+    --gold-[#C8B195]: #C8B195;
+    --gold-dark: #A68B67;
+    --gold-bright: #E2CFB4;
     --text-primary: #2E3A46;
     --text-secondary: #4A5866;
     --text-muted: #64748B;
     --border-light: #E5E7EB;
-    --border-accent: #D6C5B0;
+    --border-accent: #C8B195;
   }
 
   html {
@@ -22,7 +24,6 @@
     color: var(--text-primary);
     background-color: var(--bg-main);
   }
-
 
   h1, h2, h3, h4, h5, h6, .font-serif-heading {
     font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
@@ -38,30 +39,34 @@
   }
 }
 
-/* Custom fine border & subtle geometric line utilities */
-.border-fine {
-  border-width: 1px;
-  border-color: #E2E8F0;
+/* Gold Gradient Utilities matching the luxury logo banner */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E2CFB4 0%, #C8B195 50%, #9E835B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.border-fine-gold {
-  border-width: 1px;
-  border-color: #D9C8B0;
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #E2CFB4 0%, #C8B195 50%, #A68B67 100%);
 }
 
-/* Subtle line accents */
+.border-gold-gradient {
+  border-image: linear-gradient(135deg, #E2CFB4, #C8B195, #A68B67) 1;
+}
+
+/* Gold line accents */
 .gold-line {
   height: 1px;
-  background-color: #C5A880;
+  background: linear-gradient(90deg, transparent, #C8B195, transparent);
 }
 
 .navy-line {
   height: 1px;
-  background-color: #475B6B;
+  background-color: #3F5060;
 }
 
-/* Subtle transition without heavy animation */
 .transition-subtle {
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
 
