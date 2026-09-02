@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-[#334453] text-white pt-16 pb-12 border-t border-slate-400/40">
+    <footer className="bg-[#2E3A46] text-white pt-16 pb-12 border-t border-slate-400/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Main Footer Layout */}
@@ -30,17 +30,17 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand */}
           <div className="md:col-span-2 space-y-4">
             <Logo variant="light" size="md" />
-            <p className="text-xs text-slate-100 font-light max-w-md leading-relaxed pt-2">
+            <p className="text-xs text-slate-200 font-light max-w-md leading-relaxed pt-2">
               Compromisso com uma advocacia ética, estratégica e personalizada. Atuação focada no atendimento rigoroso e de excelência.
             </p>
-            <div className="pt-2 text-xs text-[#C5A880] font-cinzel font-semibold tracking-wide">
+            <div className="pt-2 text-xs text-[#C8B195] font-cinzel font-semibold tracking-wide">
               Lucas Manoel Alves Garcia — Advogado
             </div>
           </div>
 
           {/* Col 2: Navigation */}
           <div className="space-y-3">
-            <h4 className="text-xs font-cinzel font-semibold uppercase tracking-widest text-[#C5A880]">
+            <h4 className="text-xs font-cinzel font-semibold uppercase tracking-widest text-[#C8B195]">
               Navegação
             </h4>
             <ul className="space-y-2 text-xs text-slate-200 font-light">
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
 
           {/* Col 3: Contact */}
           <div className="space-y-3">
-            <h4 className="text-xs font-cinzel font-semibold uppercase tracking-widest text-[#C5A880]">
+            <h4 className="text-xs font-cinzel font-semibold uppercase tracking-widest text-[#C8B195]">
               Contato
             </h4>
             <div className="space-y-2 text-xs text-slate-200 font-light">
@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Mandatory Institutional Disclaimer - rounded-xl */}
-        <div className="bg-[#293745] p-4 sm:p-6 border border-slate-400/40 rounded-xl text-center max-w-4xl mx-auto shadow-inner">
+        <div className="bg-[#202932] p-4 sm:p-6 border border-slate-500/40 rounded-xl text-center max-w-4xl mx-auto shadow-inner">
           <p className="text-[11px] text-slate-200 leading-relaxed font-light italic">
             “As informações apresentadas neste site possuem caráter institucional e informativo e não substituem uma consulta jurídica individualizada.”
           </p>
@@ -111,5 +111,6 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
+
 
 

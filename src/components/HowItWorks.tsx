@@ -29,12 +29,12 @@ export const HowItWorks: React.FC = () => {
   ];
 
   return (
-    <section id="como-funciona" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#3D5061] text-white border-t border-b border-slate-400/30 relative">
+    <section id="como-funciona" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#3F5060] text-white border-t border-b border-slate-400/30 relative">
       <div className="max-w-6xl mx-auto space-y-16">
         
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
-          <span className="text-[11px] font-cinzel font-medium tracking-[0.25em] uppercase text-[#C5A880]">
+          <span className="text-[11px] font-cinzel font-medium tracking-[0.25em] uppercase text-[#C8B195]">
             Método de Atendimento
           </span>
           <h2 className="text-3xl sm:text-4xl font-cinzel font-semibold text-white tracking-wide">
@@ -43,7 +43,7 @@ export const HowItWorks: React.FC = () => {
           <p className="text-sm text-slate-100 font-light max-w-xl mx-auto">
             Um processo transparente e estruturado para garantir a melhor condução do seu caso.
           </p>
-          <div className="w-16 h-[1px] bg-[#C5A880] mx-auto"></div>
+          <div className="w-16 h-[1px] bg-[#C8B195] mx-auto"></div>
         </div>
 
         {/* 4 Process Steps - rounded-2xl */}
@@ -53,15 +53,15 @@ export const HowItWorks: React.FC = () => {
             return (
               <div 
                 key={item.step}
-                className="bg-[#485C6E]/90 backdrop-blur-xs p-6 border border-slate-300/30 rounded-2xl flex flex-col justify-between relative group hover:border-[#C5A880] transition-all shadow-lg"
+                className="bg-[#2E3A46]/90 backdrop-blur-xs p-6 border border-[#C8B195]/40 rounded-2xl flex flex-col justify-between relative group hover:border-[#C8B195] transition-all shadow-lg"
               >
                 <div className="space-y-4">
                   {/* Top Bar with Number Badge */}
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-mono font-bold text-[#C5A880] bg-[#334453] px-3 py-1 rounded-full border border-slate-400/40">
+                    <span className="text-xs font-mono font-bold text-[#C8B195] bg-[#3F5060] px-3 py-1 rounded-full border border-slate-400/40">
                       ETAPA {item.step}
                     </span>
-                    <div className="p-2.5 bg-[#334453] border border-slate-400/40 rounded-xl text-[#C5A880]">
+                    <div className="p-2.5 bg-[#3F5060] border border-slate-400/40 rounded-xl text-[#C8B195]">
                       <IconComponent className="w-4 h-4 stroke-[1.5]" />
                     </div>
                   </div>
@@ -77,7 +77,7 @@ export const HowItWorks: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="w-8 h-[2px] bg-[#C5A880]/70 rounded-full mt-6"></div>
+                <div className="w-8 h-[2px] bg-[#C8B195]/70 rounded-full mt-6"></div>
               </div>
             );
           })}
@@ -87,5 +87,6 @@ export const HowItWorks: React.FC = () => {
     </section>
   );
 };
+
 
 

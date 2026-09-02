@@ -29,12 +29,12 @@ export const PracticeAreas: React.FC = () => {
   ];
 
   return (
-    <section id="areas" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#3D5061] text-white border-t border-b border-slate-400/30 relative">
+    <section id="areas" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#3F5060] text-white border-t border-b border-slate-400/30 relative">
       <div className="max-w-6xl mx-auto space-y-16">
 
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center space-y-4">
-          <span className="text-[11px] font-cinzel font-medium tracking-[0.25em] uppercase text-[#C5A880]">
+          <span className="text-[11px] font-cinzel font-medium tracking-[0.25em] uppercase text-[#C8B195]">
             Especialidades Jurídicas
           </span>
           <h2 className="text-3xl sm:text-4xl font-cinzel font-semibold text-white tracking-wide">
@@ -43,7 +43,7 @@ export const PracticeAreas: React.FC = () => {
           <p className="text-sm text-slate-100 font-light max-w-xl mx-auto">
             Atendimento estratégico e individualizado voltado para a análise rigorosa de cada caso.
           </p>
-          <div className="w-16 h-[1px] bg-[#C5A880] mx-auto"></div>
+          <div className="w-16 h-[1px] bg-[#C8B195] mx-auto"></div>
         </div>
 
         {/* Practice Cards Grid - rounded-2xl */}
@@ -53,15 +53,15 @@ export const PracticeAreas: React.FC = () => {
             return (
               <div 
                 key={area.id}
-                className="bg-[#485C6E]/90 backdrop-blur-xs p-8 border border-slate-300/30 rounded-2xl hover:border-[#C5A880] transition-all flex flex-col justify-between group shadow-lg"
+                className="bg-[#2E3A46]/90 backdrop-blur-xs p-8 border border-[#C8B195]/40 rounded-2xl hover:border-[#C8B195] transition-all flex flex-col justify-between group shadow-lg"
               >
                 <div className="space-y-6">
                   {/* Top Header inside Card */}
                   <div className="flex items-center justify-between">
-                    <div className="p-3 bg-[#334453] border border-slate-400/40 rounded-xl text-[#C5A880] group-hover:bg-slate-700 group-hover:text-white transition-colors">
+                    <div className="p-3 bg-[#3F5060] border border-slate-400/40 rounded-xl text-[#C8B195] group-hover:bg-[#C8B195] group-hover:text-[#2E3A46] transition-colors">
                       <IconComponent className="w-5 h-5 stroke-[1.5]" />
                     </div>
-                    <span className="w-8 h-[2px] bg-[#C5A880]/70 rounded-full"></span>
+                    <span className="w-8 h-[2px] bg-[#C8B195]/70 rounded-full"></span>
                   </div>
 
                   {/* Title */}
@@ -75,16 +75,16 @@ export const PracticeAreas: React.FC = () => {
                   </p>
                 </div>
 
-                {/* Footer Action inside Card - Gray Button rounded-xl */}
+                {/* Footer Action inside Card */}
                 <div className="pt-8 mt-6 border-t border-slate-400/30 flex items-center justify-between">
                   <a
                     href="https://wa.me/5511919580341"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-slate-700 hover:bg-slate-800 text-white rounded-xl text-xs font-semibold uppercase tracking-wider transition-all border border-slate-500 shadow-xs"
+                    className="inline-flex items-center gap-2.5 px-4 py-2.5 bg-[#3F5060] hover:bg-[#2E3A46] text-white rounded-xl text-xs font-semibold uppercase tracking-wider transition-all border border-slate-400/50 shadow-xs"
                   >
                     <span>Consultar sobre {area.title.split(' ')[1].toLowerCase()}</span>
-                    <ArrowRight className="w-3.5 h-3.5 text-[#C5A880]" />
+                    <ArrowRight className="w-3.5 h-3.5 text-[#C8B195]" />
                   </a>
                 </div>
               </div>
@@ -96,6 +96,7 @@ export const PracticeAreas: React.FC = () => {
     </section>
   );
 };
+
 
 
 

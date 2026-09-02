@@ -2,18 +2,18 @@
 
 @layer base {
   :root {
-    --bg-main: #FAF9F6;
+    --bg-main: #FAF8F5;
     --bg-card: #FFFFFF;
-    --blue-slate: #475B6B;
-    --blue-slate-dark: #384A59;
+    --blue-slate: #3F5060;
+    --blue-slate-dark: #2E3A46;
     --blue-slate-light: #526778;
-    --gold-accent: #C5A880;
-    --gold-muted: #D9C8B0;
-    --text-primary: #1E293B;
-    --text-secondary: #475569;
+    --gold-accent: #C8B195;
+    --gold-muted: #D6C5B0;
+    --text-primary: #2E3A46;
+    --text-secondary: #4A5866;
     --text-muted: #64748B;
-    --border-light: #E2E8F0;
-    --border-accent: #E5DFD5;
+    --border-light: #E5E7EB;
+    --border-accent: #D6C5B0;
   }
 
   html {
@@ -22,6 +22,7 @@
     color: var(--text-primary);
     background-color: var(--bg-main);
   }
+
 
   h1, h2, h3, h4, h5, h6, .font-serif-heading {
     font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
