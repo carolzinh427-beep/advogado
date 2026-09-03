@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
             
             {/* Big Centered Monogram & Brand Representation */}
             <div className="flex flex-col items-center lg:items-start space-y-3 sm:space-y-4">
-              <Logo size="lg" variant="dark" />
+              <Logo size="lg" variant="dark" layout="vertical" />
               
               {/* Slogan with Gold Accents - Exactly as image: ── SOLUÇÕES JURÍDICAS, RESULTADOS REAIS. ── */}
               <div className="flex items-center gap-2 sm:gap-3 pt-2 sm:pt-4 max-w-md w-full justify-center lg:justify-start">
