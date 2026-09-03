@@ -3,14 +3,14 @@ import { Logo } from './Logo';
 
 export const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="relative pt-20 sm:pt-28 pb-0 bg-[#FAF8F5] text-[#2E3A46] overflow-hidden border-b border-slate-300">
+    <section id="inicio" className="relative pt-24 sm:pt-32 lg:pt-36 pb-0 bg-[#FAF8F5] text-[#2E3A46] overflow-hidden border-b border-slate-300">
       
       {/* Decorative Gold Geometric Shapes matching the banner image */}
-      <div className="absolute top-24 left-4 w-12 h-12 border-t-2 border-l-2 border-[#C8B195]/50 pointer-events-none hidden sm:block"></div>
+      <div className="absolute top-28 left-4 w-12 h-12 border-t-2 border-l-2 border-[#C8B195]/50 pointer-events-none hidden sm:block"></div>
       <div className="absolute bottom-16 right-4 w-12 h-12 border-b-2 border-r-2 border-[#C8B195]/50 pointer-events-none hidden sm:block"></div>
 
       {/* Top Main Hero Layout */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-8 pb-8 sm:pb-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-2 sm:pt-6 pb-8 sm:pb-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
           
           {/* Left Column: Brand, Monogram, Title, Tagline */}

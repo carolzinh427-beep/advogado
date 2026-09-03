@@ -33,7 +33,14 @@ export const Header: React.FC = () => {
     setMobileMenuOpen(false);
     const element = document.querySelector(href);
     if (element) {
-      const headerOffset = 80;
+      if (href === '#inicio') {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+        return;
+      }
+      const headerOffset = 90;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -47,7 +54,7 @@ export const Header: React.FC = () => {
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#FAF8F5]/95 backdrop-blur-md ${
-        isScrolled ? 'border-b border-slate-300/60 shadow-sm py-3' : 'border-b border-slate-200/40 py-4'
+        isScrolled ? 'border-b border-slate-300/60 shadow-sm py-2.5 sm:py-3' : 'border-b border-slate-200/40 py-3 sm:py-4'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
